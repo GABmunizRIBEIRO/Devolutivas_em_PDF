@@ -22,10 +22,10 @@ class RelatorioView(View):
     def get(self, request, *args, **kwargs):
         # Conectar ao banco de dados
         conn = psycopg2.connect(
-            host="database-4.cg6rk0mnctnw.us-east-2.rds.amazonaws.com",
+            host=#DADOS SENSIVEIS,
             database="postgres",
             user="postgres",
-            password="lepes_dados_FRM"
+            password= #DADOS SENSIVEIS 
         )
 
         # Criar um cursor para executar comandos SQL
@@ -137,10 +137,10 @@ class RelatorioViewDois(View):
     def get(self, request, *args, **kwargs):
         # Conectar ao banco de dados
         conn = psycopg2.connect(
-            host="database-4.cg6rk0mnctnw.us-east-2.rds.amazonaws.com",
+            host=#DADOS SENSIVEIS,
             database="postgres",
             user="postgres",
-            password="lepes_dados_FRM"
+            password=#DADOS SENSIVEIS
         )
 
         # Criar um cursor para executar comandos SQL
@@ -273,10 +273,10 @@ class RelatorioViewEd(View):
     def get(self, request, *args, **kwargs):
         # Conectar ao banco de dados
         conn = psycopg2.connect(
-            host="database-4.cg6rk0mnctnw.us-east-2.rds.amazonaws.com",
+            host=#DADOS SENSIVEIS,
             database="postgres",
             user="postgres",
-            password="lepes_dados_FRM"
+            password=#DADOS SENSIVEIS
         )
 
         # Criar um cursor para executar comandos SQL
@@ -374,10 +374,10 @@ class RelatorioViewEp(View):
     def get(self, request, *args, **kwargs):
         # Conectar ao banco de dados
         conn = psycopg2.connect(
-            host="database-4.cg6rk0mnctnw.us-east-2.rds.amazonaws.com",
+            host=#DADOS SENSIVEIS,
             database="postgres",
             user="postgres",
-            password="lepes_dados_FRM"
+            password=#DADOS SENSIVEIS
         )
 
         # Criar um cursor para executar comandos SQL
