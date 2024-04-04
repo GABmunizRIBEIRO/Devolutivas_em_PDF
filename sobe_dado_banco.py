@@ -4,11 +4,11 @@ from sqlalchemy import create_engine
 
 
 # Configurações de conexão com o banco de dados
-db_host = 'database-4.cg6rk0mnctnw.us-east-2.rds.amazonaws.com'
-db_port = '5432' 
+db_host = ''
+db_port = '' 
 db_name = 'postgres'
 db_user = 'postgres'
-db_password = 'lepes_dados_FRM'
+db_password = ''
 
 caminho = 'H:/Drives compartilhados/lepes_dados/equipe_dados/projeto_QPDIFGV/cadastral/'
 
